@@ -42,12 +42,12 @@ NOTE: the steps listed below are all completed by executing each cell in the jup
 
 Load resized testing and training images, as well as training classes.
 
-To test cros-validation scores of various hyperparameter C-values, call:
+To test cros-validation scores of various hyperparameter C-values, call:\
 linearSVM(Cs, features, classes)
-      - returns a 2D array of elements [C-value, Validation Score]
-      - Cs = an array of C values
-      - features = training images
-      - classes = training classes
+- returns a 2D array of elements [C-value, Validation Score]
+- Cs = an array of C values
+- features = training images
+- classes = training classes
 
 
 Plot the scores obtained from the cross test validation (on logscale):
